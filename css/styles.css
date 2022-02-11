@@ -18,23 +18,23 @@ header {background-color: var(--white-colore);}
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    text-decoration: none;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);}
+    text-decoration: none;}
 .logo-dark {color: var(--logo-dark-colore);
     font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.19;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);}
+    line-height: 1.19;}
 li {list-style: none;}
-.site-nav a {color: var(--primary-text-colore);
+.site-nav a {
+    color: var(--primary-text-colore);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;}
 .site-nav a:hover , .site-nav a:focus {color: var(--accent-colore);}
-.contacts a {color: var(--primary-text-colore);
+.site-nav .current {color: var(--accent-colore);}
+.contacts a {color: var(--light-text-colore);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -50,7 +50,9 @@ li {list-style: none;}
     letter-spacing: 0.06em;
     text-transform: uppercase;}
 .button.primary {color: var(--white-colore);
+    font-family: inherit;
     font-weight: 700;
+    font-size: 16px;
     line-height: 1.88;
     display: flex;
     align-items: center;
@@ -65,6 +67,7 @@ li {list-style: none;}
     line-height: 1.14;
     text-transform: uppercase;}
 .features-list p {color: var(--light-text-colore);
+    font-size: 14px;
     line-height: 1.5;}
 .services {background-color:var(--white-colore);}
 .section {font-weight: 700;
@@ -77,6 +80,7 @@ li {list-style: none;}
     border-radius: 0px 0px 4px 4px;}
 .team h3 {font-style: normal;
     font-weight: 500;
+    font-size: 16px;
     line-height: 1.19;
     text-align: center;}
 .team p {color: var(--light-text-colore);
@@ -85,6 +89,7 @@ li {list-style: none;}
 .our-portfolio {background-color: var(--white-colore);}
 .portfolio-menu button {font-family: inherit;
     font-weight: 500;
+    font-size: 16px;
     line-height: 1.63;
     text-align: center;
     background-color: var(--backgroud-light-colore);
@@ -109,4 +114,5 @@ footer {background-color: var(--primary-text-colore);}
     line-height: 1.71;
     letter-spacing: 0.03em;
     text-decoration: none;}
+.phone a, .mail a {color: rgba(255, 255, 255, 0.6);}
 .address a:hover, .address a:focus {color: var(--accent-colore);}
