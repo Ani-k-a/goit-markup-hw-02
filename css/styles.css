@@ -19,11 +19,7 @@ header {background-color: var(--white-colore);}
     font-size: 26px;
     line-height: 1.19;
     text-decoration: none;}
-.logo-dark {color: var(--logo-dark-colore);
-    font-family: Raleway;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;}
+.logo-dark {color: var(--logo-dark-colore);}
 li {list-style: none;}
 .site-nav a {
     color: var(--primary-text-colore);
